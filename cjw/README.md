@@ -19,3 +19,7 @@ summary : 해당 대화를 바탕으로 작성된 요약문입니다.
 Final Score
 =Sum{Sum(ROUGE-1-F1(pred,gold)+Sum(ROUGE-2-F1(pred,gold))+Sum(ROUGE-L-F1(pred,gold)}/Data len(N)
 
+# Model
+
+1. baseline : digit82/kobart-summarization
+2. Pegasus : google/dialogue-xsum -> 해당 부분은 기존 영어로 된 데이터로 확인해보려고 함. 대회랑은 무관함.
